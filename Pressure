@@ -1,0 +1,21 @@
+//N. Harry Herrick, Lab 1: This application calculates pressure based on area and force
+
+#include <iostream>;
+
+int main()
+{
+  //define force variable
+  double force = 172.5;
+  
+  //define area variable
+  double area = 27.5;
+  
+  //define pressure variable
+  double pressure = force / area;
+  
+  //output pressure to display
+  cout <<"The pressure is " <<pressure<<endl;
+  
+  //end program
+  return 0;
+}
